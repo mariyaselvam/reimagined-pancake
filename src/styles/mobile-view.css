@@ -1,0 +1,65 @@
+@media (max-width:600px) {
+    .header-logo--nav-wrap{
+        padding: 0px;
+    }
+    .join-us-main-tit{
+        font-size: 50px;
+    }
+    .what-we-do-tit-wrap{
+        transform: translate(0px);
+    }
+
+    .why-chose-us-cont-wrap{
+        padding: 20px;
+    }
+    .why-chose-us-main-tit{
+        text-align: center;
+    }
+    .client-feedback-swiper-card-1{
+        margin: 0px;
+    }
+    .join-us-sec{
+        background-position: center;
+    }
+    .blog-listing-card{
+        width: 80%;
+    }
+    .first-name{
+        width: 100%;
+    }
+    .contact-us-form-wrap, .contact-us-cont-social-links-wrap{
+        padding: 100px 60px;
+    }
+    .contact-form-main-tit{
+        font-size: 31.23px;
+    }
+
+    .client-feedback-swiper-card-4 , .client-feedback-swiper-card-2{
+        display: none;
+    }
+    .C-profile{
+        left: 50%;
+        bottom: -50px;
+    }
+    .client-feedback-swiper-card-1, .client-feedback-swiper-card-2, .client-feedback-swiper-card-3, .client-feedback-swiper-card-4{
+        padding: 10px;
+    }
+    .client-feedback-swiper-card-1 > p, .client-feedback-swiper-card-2 > p, .client-feedback-swiper-card-3 > p, .client-feedback-swiper-card-4 > p{
+        font-size: 14.64px;
+        font-weight: 400;
+        line-height: 26.75px;
+    }
+    .client-feedback-swiper-card-1 > span, .client-feedback-swiper-card-2 > span, .client-feedback-swiper-card-3 > span, .client-feedback-swiper-card-4 > span{
+        font-size: 12px;
+    }
+    
+    .about-us-hole-content{
+        padding: 50px 0px;
+    }
+    .main-logo{
+        width: 140px;
+    }
+    header{
+        height: auto;
+    }
+}

@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+    .nav-options{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .about-visition-nd-misition > *{
+        width: 100%;
+    }
+}
