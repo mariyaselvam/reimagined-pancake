@@ -8,13 +8,18 @@ import Header from "../components/Header"
 import JoinUs from "../components/JoinUs"
 import WhatWeDo from "../components/WhatWeDo"
 import WhyChoseUs from "../components/WhyChoseUs"
+import ParticlesComponent from "../js/particles"
+
 
 const Home = () => {
+
   return (
     <>
+    
     <div className="page-wraper">
     <Header />
     <div className="banner-nd-about-wraper">
+    <ParticlesComponent id="particles" />
     <Banner />
     <AboutUs />
     </div>

@@ -7,10 +7,14 @@
     }
     .what-we-do-tit-wrap{
         transform: translate(0px);
+        text-align: center;
+    }
+    .what-we-main-do{
+        margin: 0rem auto 1rem;
     }
 
     .why-chose-us-cont-wrap{
-        padding: 20px;
+        padding: 50px 20px;
     }
     .why-chose-us-main-tit{
         text-align: center;
@@ -61,5 +65,13 @@
     }
     header{
         height: auto;
+    }
+    .what-we-do-card{
+        width: 85%;
+        margin: 0rem auto 2rem;
+        height: max-content;
+    }
+    .why-chose-us-sec{
+        padding: 50px 0px;
     }
 }
