@@ -3,7 +3,9 @@
         padding: 0px;
     }
     .join-us-main-tit{
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 59.21px;
     }
     .what-we-do-tit-wrap{
         transform: translate(0px);
@@ -23,10 +25,11 @@
         margin: 0px;
     }
     .join-us-sec{
+        padding: 50px 0px;
         background-position: center;
     }
     .blog-listing-card{
-        width: 80%;
+        width: 90%;
     }
     .first-name{
         width: 100%;
@@ -67,11 +70,39 @@
         height: auto;
     }
     .what-we-do-card{
-        width: 85%;
+        width: 91%;
         margin: 0rem auto 2rem;
         height: max-content;
     }
     .why-chose-us-sec{
         padding: 50px 0px;
+    }
+    .join-us-btn{
+        padding: 10px 38px;
+        font-size: 21.36px;
+        font-weight: 500;
+    }
+    .join-us-main-para{
+        font-size: 21.68px;
+        font-weight: 400;
+        line-height: 37.7px;
+    }
+    .what-we-main-para{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26.68px;
+    }
+    .banner-content{
+        padding-top: 50px;
+    }
+    .banner-main-img{
+        padding: 2rem 0rem;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .client-feedback-swiper-wrap .swiper{
+        width: 100%;
+        max-height: 430px;
     }
 }

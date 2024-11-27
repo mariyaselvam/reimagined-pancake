@@ -25,10 +25,10 @@ const ContactUs = () => {
                                 <input className='first-name' type="text" name="" id="" placeholder="First Name" />
                             </div>
                             <div className="col-md-6">
-                                <input type="text" name="" id="" placeholder="Last Name" />
+                                <input className='last-name' type="text" name="" id="" placeholder="Last Name" />
                             </div>
                             <div className="col-md-12">
-                            <select value="Select the Services" placeholder="" name="" id="">
+                            <select className='select' value="Select the Services" placeholder="" name="" id="">
                                 <option value="">Service 1</option>
                                 <option value="">Service 2</option>
                                 <option value="">Service 3</option>
@@ -38,7 +38,7 @@ const ContactUs = () => {
                             </select>
                             </div>
                             <div className="col-md-12">
-                            <textarea placeholder="Message" rows="5" name="" id=""></textarea>
+                            <textarea className='textarea' placeholder="Message" rows="5" name="" id=""></textarea>
                             </div>
                            
                            <div className="col-md-12">

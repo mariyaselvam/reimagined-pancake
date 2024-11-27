@@ -18,7 +18,7 @@ const Home = () => {
     
     <div className="page-wraper">
     <Header />
-    <div className="banner-nd-about-wraper">
+    <div  className="banner-nd-about-wraper">
     <ParticlesComponent id="particles" />
     <Banner />
     <AboutUs />
@@ -27,7 +27,7 @@ const Home = () => {
     <WhyChoseUs />
     <ClientFeedback />
     <JoinUs />
-    <Blogs />
+    <Blogs  />
     <ContactUs />
     <Footer />
     </div>

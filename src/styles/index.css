@@ -29,6 +29,7 @@ header{
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
+    transition: transform 0.4s ease;
 }
 
 .header-logo--nav-wrap{
@@ -50,7 +51,8 @@ header{
 }
 
 .banner-nd-about-wraper{
-    background: url("../assets/Home/Banner/banner-nd-about-bg.png");
+    /* background: url("../assets/Home/Banner/banner-nd-about-bg.png"); */
+    background-color: #0f2114;
     position: relative;
 }
 
@@ -87,6 +89,8 @@ header{
 .banner-main-img{
     display: grid;
     place-content: end;
+    background-color: #0f2114;
+    position: relative;
 }
 
 .about-us-sec{
@@ -202,6 +206,8 @@ header{
 
 .what-we-do-sec{
     padding: 100px 0px;
+    position: relative;
+    background-color: white;
 }
 
 .what-we-do-card{
@@ -280,7 +286,7 @@ header{
 }
 
 .what-we-do-tit-wrap{
-    transform: translateX(-50px);
+    padding: 2rem;
 }
 
 .what-we-main-para{
@@ -290,9 +296,10 @@ header{
 }
 
 .why-chose-us-sec{
-    background: url("../assets/Home/Banner/banner-nd-about-bg.png");
+    /* background: url("../assets/Home/Banner/banner-nd-about-bg.png"); */
     padding: 120px 0px;
     color: white;
+    background-color: #0f2114;
 }
 
 .why-chose-us-cont-points-card{
@@ -332,6 +339,8 @@ header{
     background: url("../assets/Home/ClientFeedback/world-map.svg");
     background-repeat: no-repeat;
     background-position:right;
+    background-color: white;
+    position: relative;
 
 }
 
@@ -342,7 +351,7 @@ header{
 
 .client-feedback-swiper-wrap .swiper{
     width: 100%;
-    max-height: 430px;
+    max-height: 730px;
 }
 
  .swiper-slide{
@@ -449,6 +458,12 @@ header{
     line-height: 37.7px;
 }
 
+.join-us-btn-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .join-us-btn{
     font-size: 26.36px;
     font-weight: 800;
@@ -458,6 +473,13 @@ header{
     width: max-content;
     background-color: white;
     border-radius: 53px;
+    border: 1px solid transparent;
+}
+
+.join-us-btn:hover{
+    background-color: #0f2114;
+    color: white;
+    border: 1px solid white;
 }
 
 .join-us-sec{
@@ -600,7 +622,8 @@ header{
 }
 
 .contact-us-form-wrap{
-    background: url("../assets/Home/Banner/banner-nd-about-bg.png");
+    /* background: url("../assets/Home/Banner/banner-nd-about-bg.png"); */
+    background-color: #0f2114;
     height: 100%;
 }
 
@@ -628,6 +651,9 @@ header{
     border-radius: 8px;
     padding: 13px 22px;
     border: none;
+    background-color: white;
+    position: relative;
+    color: gray;
 }
 
 .contact-form-btn{
@@ -637,6 +663,20 @@ header{
     font-size: 19.95px;
     font-weight: 600;
     line-height: 39.22px;
+    transition: 0.4s ease;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.first-name:focus , .textarea:focus , .select:focus , .last-name:focus{
+    border: none;
+    outline: none;
+}
+
+.contact-form-btn:hover{
+    background-color: #0f2114;
+    color: white;
+    border: 1px solid white;
 }
 
 .contact-us-cont-card-cont{
@@ -790,3 +830,8 @@ footer{
     height: 100% !important;
     z-index: -1;
 }
+
+.hide-nav {
+    transform: translateX(-50%) translateY(-100%);
+}
+

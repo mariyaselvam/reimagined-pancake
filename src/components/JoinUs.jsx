@@ -11,9 +11,16 @@ const JoinUs = () => {
                     </h3>
                     <p className="join-us-main-para">Be part of a movement redefining education and industry.</p>
 
-                    <a className="join-us-btn" href="">
+                   <div className="join-us-btn-wrap">
+                   <a className="join-us-btn" href="">
                     Join Us
                     </a>
+                    <a className="join-us-btn" href="">
+                    Connect
+                    </a>
+                   </div>
+                  
+                    
                 </div>
             </div>
         </div>

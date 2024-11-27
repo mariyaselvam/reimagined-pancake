@@ -11,6 +11,11 @@ import "./styles/tabView1.css"
 import "./styles/tabView2.css"
 import "./styles/mobile-view.css"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -1,10 +1,27 @@
+
+import { useEffect } from "react";
 import Logo from "../assets/Home/Header/light-bg-logo.png"
 import HamburgerMenuImg from "../assets/Home/Header/hamburger.png"
 
 const Header = () => {
+    useEffect(() => {
+        const nav = document.getElementById('nav');
+        let top = window.scrollY;
+        window.addEventListener("scroll", () => {
+        
+            if(top < window.scrollY){
+              nav.classList.add("hide-nav");
+            }else{
+              nav.classList.remove("hide-nav");
+            }
+      
+          top = window.scrollY;
+              
+          })
+      }, []);
   return (
    <>
-   <header>
+   <header id="nav">
     <div className="container">
         <div className="row">
             <div className="col-lg-12">

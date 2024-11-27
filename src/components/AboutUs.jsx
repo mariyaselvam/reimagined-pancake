@@ -14,23 +14,23 @@ const AboutUs = () => {
                     <span className="about-us-mini-tit">
                     About Us
                     </span>
-                    <h2 className="about-us-main-tit">
+                    <h2 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300" className="about-us-main-tit">
                     At Industro Ventures, we believe
                     education isn’t just about learning
                     </h2>
 
-                    <p className="about-us-para">
+                    <p  className="about-us-para">
                     It’s about  transformation. From groundbreaking digital infrastructures to passion-driven  communities, we’re redefining how education connects with industry. Our mission? To  build pathways where students excel, institutions thrive, and innovation takes the lead.
                     </p>
 
                     <div className="about-visition-nd-misition">
-                        <div className="about-visition-nd-misition-card">
-                            <h4 className="about-visition-tit">
+                        <div  className="about-visition-nd-misition-card">
+                            <h4  className="about-visition-tit">
                             Our Vision
                             </h4>
                             <p className="about-visition-nd-misition-para">To empower the next generation with skills, tools, and environments that  drive success and innovation.</p>
                         </div>
-                        <div className="about-visition-nd-misition-card">
+                        <div  className="about-visition-nd-misition-card">
                             <h4 className="about-mistion-tit">
                             Our Vision
                             </h4>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                         </div>
                     </div>
 
-                    <a className="about-us-btn" href="">
+                    <a data-aos="fade-in" data-aos-duration="5000" className="about-us-btn" href="">
                     Read More
                     </a>
                 </div>
